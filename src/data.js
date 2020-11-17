@@ -5,6 +5,7 @@ import munich from './images/munich.jpg';
 import peru from './images/peru.jpg';
 import tulum from './images/tulum.jpg';
 import chiang from './images/chiangmai.jpg';
+import budapest from './images/budapest.jpg';
 
 const menu = [
     {
@@ -13,7 +14,7 @@ const menu = [
       region: 'North America',
       price: 320,
       img: seattle,
-      desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+      desc: `$40/night // This iconic city of the Pacific North West is just a short drive from Mt. Rainier, The Enchantments, and Olympic National Park, just to name a few.`,
     },
     {
       id: 2,
@@ -61,7 +62,15 @@ const menu = [
       region: 'Southeast Asia',
       price: 942,
       img: chiang,
-      desc: `$13/night // One of Thailands most visited locals, you could spend weeks exploring Chiang Mai's famous city center, but Buddhist temples and vibrant bazaars will also compete for your valuable adventuring time.`
+      desc: `$13/night // While one could spend weeks exploring Chiang Mai's famous city center, Buddhist temples and vibrant bazaars will also compete for your valuable adventuring time.`
+    },
+    {
+      id: 8,
+      title: 'Budapest',
+      region: 'Europe',
+      price: 862,
+      img: budapest,
+      desc: `$11/night // The ninth largest city in the EU, this famous Hungarian city is bisected by the River Danube. Visit a 13th century church and marvel at the gorgeous architechture filling this historic dwelling.`
     },
   ];
   export default menu;
