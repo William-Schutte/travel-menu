@@ -4,8 +4,8 @@ const Regions = ({ regions, filterItems, sortItems }) => {
     return (
         <>
             <div className="btn-container">
-                {regions.map((region) => {
-                    return <button className="filter-btn" onClick={() => filterItems(region)}>{region}</button>
+                {regions.map((region, i) => {
+                    return <button key={i} className="filter-btn" onClick={() => filterItems(region)}>{region}</button>
                 })}
             </div>
             <div className="btn-container">
